@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-decoration: underline;
+    text-shadow: black;
+}
+
+.container{
+    height: 1200px;
+    width: 400px;
+    border: 1px solid black;
+    /* display: flex; */
+    text-align: center;
+    /* align-items: center; */
+    /* justify-content: center; */
+    margin-left: 600px;
+    margin-top: 10px;
+}
+
+.image{
+    background-image: url("Ravindra Jadeja.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 200px;
+    /* border: 2px solid black; */
+    margin-top: 10px;
+    margin-left: 90px;
+    margin-right: 90px;  
+}
+
+p{
+    font-weight: bold;
+}
+
+.infoHeading{
+    text-align: center;
+    background-color: #B0C4DE;
+    margin: 0px 5px 0px 5px;
+    font-weight: bolder;
+}
+
+.info{
+    margin-top: 5px;
+    margin-left: 5px;
+    text-align: left;
+    /* display: inline; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.subinfo{
+    text-align: left;
+    font-weight: bolder;
+
+}
+
+.infosmean{
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+.info p{
+    font-weight: lighter;
+    text-align: right;
+    margin-right: 5px;
+    
+}
+
+
+
+
+
+
+
